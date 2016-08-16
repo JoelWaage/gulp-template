@@ -29,3 +29,7 @@ $ npm install browser-sync --save-dev
 
 $ gulp build
 $ gulp build --production
+
+re-create .env with APIs,
+  in .env: exports.apiKey = "actual API key";
+  in x-interface: var apiKey = require('./../.env').apiKey;
