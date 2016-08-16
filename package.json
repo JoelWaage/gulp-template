@@ -1,5 +1,5 @@
 {
-  "name": "TEMPLATE",
+  "name": "alarm-clock",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -33,5 +33,13 @@
     "jshint": "^2.9.2",
     "vinyl-source-stream": "^1.1.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelWaage/alarm-clock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JoelWaage/alarm-clock/issues"
+  },
+  "homepage": "https://github.com/JoelWaage/alarm-clock#readme",
   "description": ""
 }
