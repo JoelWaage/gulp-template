@@ -34,3 +34,5 @@ $ gulp serve
 re-create .env with APIs,
   in .env: exports.apiKey = "actual API key";
   in x-interface: var apiKey = require('./../.env').apiKey;
+  
+$ npm cache clear
