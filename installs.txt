@@ -1,3 +1,7 @@
+$ npm cache clear
+$ npm install
+$ bower install
+
 $ nmp init
   CHANGE REPOSITORY
   (builds package.json)
