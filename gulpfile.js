@@ -103,6 +103,6 @@ gulp.task('cssBuild', function() {
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./build/css'))
     .pipe(browserSync.stream());
-}
+});
 
 gulp.watch(["scss/*.scss"], ['cssBuild']);
